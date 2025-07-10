@@ -1,7 +1,7 @@
 {
   "name": "angularjs-1x-go-to-definition",
   "displayName": "AngularJS 1.x Go To Definition 🚀",
-  "description": "This extension improves code navigation for AngularJS 1-series projects that do not use the module bundler in Visual Studio Code. Allows you to quickly jump from a string-based dependency injection (`MyService`) or a method call (`MyService.doSomething()`) of a service factory controller split into a separate file to its **definition source.",
+  "description": "This extension improves code navigation for AngularJS 1-series projects that do not use the module bundler in Visual Studio Code. Allows you to quickly jump from a string-based dependency injection (`MyService`) or a method call (`MyService.doSomething()`) of a service factory controller split into a separate file to its definition source.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.101.0",
