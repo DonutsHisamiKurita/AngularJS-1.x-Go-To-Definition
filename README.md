@@ -2,7 +2,7 @@
 
 ## Overview
 
-**AngularJS 1.x Go To Definition** は、Visual Studio Code での モジュールバンドラーを使用していない AngularJS 1系のプロジェクトのコードナビゲーションを改善する拡張機能です。予め定義された**パターンマッチ**を使用して、文字列ベースの依存性注入 (`'MyService'`) や、別ファイルに分割されたサービス・ファクトリ・コントローラのメソッド呼び出し (`MyService.doSomething()`) から、その**定義元へ素早くジャンプ**できるようになります。
+**AngularJS 1.x Go To Definition 🚀 ** は、Visual Studio Code での モジュールバンドラーを使用していない AngularJS 1系のプロジェクトのコードナビゲーションを改善する拡張機能です。予め定義された**パターンマッチ**を使用して、文字列ベースの依存性注入 (`'MyService'`) や、別ファイルに分割されたサービス・ファクトリ・コントローラのメソッド呼び出し (`MyService.doSomething()`) から、その**定義元へ素早くジャンプ**できるようになります。
 
 ## Feature
 
