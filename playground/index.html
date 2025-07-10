@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AngularJS 1.x Playground</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="services/myTestService.js"></script> 
+    <script src="services/anotherFactory.js"></script>
+</head>
+<body ng-app="myApp">
+    <h1>AngularJS 1.x Playground</h1>
+
+    <div ng-controller="MainController as mainCtrl">
+        <p>Using service: {{ mainCtrl.serviceName }}</p>
+        <button ng-click="mainCtrl.callService()">Call MyTestService</button>
+        <p>Using factory: {{ mainCtrl.factoryData }}</p>
+        <button ng-click="mainCtrl.callFactory()">Call AnotherFactory</button>
+    </div>
+
+    <hr>
+    <h3>コードジャンプのテスト対象文字列:</h3>
+    <pre>
+    // app.js内でMyTestServiceを参照している文字列
+    const serviceRef1 = 'MyTestService'; 
+
+    // app.js内でAnotherFactoryを参照している文字列
+    const factoryRef1 = 'AnotherFactory';
+
+    // 別ファイルに定義されている関数の名前
+    function MyTestService() {}
+    function AnotherFactory() {}
+    </pre>
+    <p>上記の文字列をVS Codeで選択して、プラグインのコードジャンプを試してください。</p>
+</body>
+</html>
