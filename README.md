@@ -12,7 +12,7 @@
 
 呼び出し元の `myService.doSomething()` の `doSomething` または`myService.doSomething()`を選択すると、その `doSomething` メソッドが定義されている別ファイルの関数ブロックにジャンプします。
 
-<video src="./GUIDE.mov" controls="true"></video>
+<video src="./GUIDE.mov" controls="true" />
 
 ## Usage
 
